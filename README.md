@@ -1,6 +1,6 @@
 # Inspector Dom
 
-A dom inspector similiar to built-in tool in chrome browser with a custom callback onClick.
+Pure vanilla-js ultra-lightweight dom inspector similiar to built-in tool in chrome browser with a custom callback onClick.
 ![](inspector.gif)
 
 ## Install
