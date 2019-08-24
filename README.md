@@ -24,12 +24,12 @@ const inspector = Inspector({
     root: 'body',                       // root element
     excluded: [],                       // excluded children, string or node Element
     outlineStyles: '2px solid orange',  // styles
-    onClick: el => console.log('Element was clicked:', constructCssPath(el)
+    onClick: el => console.log('Element was clicked:', constructCssPath(el) //onClick callback
 });
 ```
 
 ## API
 
-`inspector.enable(callback)             // turn the inspector on`
+`inspector.enable()                     // turn the inspector on`
 
 `inspector.cancel()                     // turn the inspector off`

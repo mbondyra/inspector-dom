@@ -1,6 +1,6 @@
 {
   "name": "inspector-dom",
-  "version": "0.0.8",
+  "version": "0.1.1",
   "description": "Dom elements picker",
   "main": "src/index.js",
   "repository": {
