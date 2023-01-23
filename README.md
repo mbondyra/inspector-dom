@@ -5,17 +5,21 @@ Pure vanilla-js ultra-lightweight dom inspector similiar to built-in tool in chr
 
 ## Install
 
-yarn add inspector-dom
+### NPM
+`npm i -s inspector-dom`
 
-`const Inspector = require('inspector-dom')`
-
-`import Inspector from 'inspector-dom'`
+### Yarn
+`yarn add inspector-dom`
 
 ## Usage
 
-Initialize:
 
-`const inspector = Inspector()`
+```js
+
+import Inspector from 'inspector-dom';
+
+const inspector = Inspector();
+```
 
 Props:
 
@@ -30,6 +34,8 @@ const inspector = Inspector({
 
 ## API
 
-`inspector.enable()                     // turn the inspector on`
+```js
+inspector.enable() // turn the inspector on
 
-`inspector.cancel()                     // turn the inspector off`
+inspector.cancel() // turn the inspector off
+```
